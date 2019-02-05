@@ -20,14 +20,26 @@
             <h1>Fotoko</h1>
         <hr>
         <div>
-            <label class="btn btn-light btn-outline-primary" for="openImageBtn">open an image</label>
-            <input id="openImageBtn" type="file" style="display: none;">
+            <label class="btn btn-light btn-outline-primary" for="openImageBtn">Open an image</label>
+            <input accept="image/*" id="openImageBtn" type="file" style="display: none;">
+            <br>
+            <div class="btn-group">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        File
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a id="saveToolBarBtn" class="dropdown-item">Save</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="text-center" id="canvasParent"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
