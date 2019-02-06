@@ -24,6 +24,5 @@ Take a look at objectives, and start coding !
 
 # Objectives for now
 
-- add new color option (blur, posterize)
 - put text on image
-- limit the canvas size
+- add more features
