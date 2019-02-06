@@ -24,6 +24,6 @@ Take a look at objectives, and start coding !
 
 # Objectives for now
 
-- change colors (grayscale, ...)
+- add new color option (blur, posterize)
 - put text on image
 - limit the canvas size

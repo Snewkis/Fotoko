@@ -22,12 +22,24 @@
             <input accept="image/*" id="openImageBtn" type="file" style="display: none;">
             <br>
             <div class="btn-group">
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropdown mx-2">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLinkFile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         File
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkFile">
                         <a id="saveToolBarBtn" class="dropdown-item">Save</a>
+                    </div>
+                </div>
+                <div class="dropdown mx-2">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLinkColor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Color
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkColor">
+                        <a id="defaultToolBarColor" class="dropdown-item">Default</a>
+                        <a id="grayToolBarColor" class="dropdown-item">Grayscale</a>
+                        <a id="dilateToolBarColor" class="dropdown-item">Dilate</a>
+                        <a id="erodeToolBarColor" class="dropdown-item">Erode</a>
+                        <a id="invertToolBarColor" class="dropdown-item">Invert</a>
                     </div>
                 </div>
             </div>
