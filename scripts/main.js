@@ -14,6 +14,7 @@ $('#openImageBtn').change(() => {
 		img = loadImage(reader.result, () => {
 			if (img.width > 1920 || img.height > 1200) {
 				alert('Img too big ! Sorry');
+				img = null;
 			} else {
 				resizeCanvas(img.width, img.height);
 			}
